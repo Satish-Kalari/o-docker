@@ -1,4 +1,5 @@
 FROM almalinux:8
+#docker images --filter label=TRAINER=satish
 LABEL   TRAINER="satish" \
         COURSE="DevOps" \
         DURATION="3 months" \
